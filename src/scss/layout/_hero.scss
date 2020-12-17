@@ -86,30 +86,13 @@
 .hero-figure-rastreador {
 	z-index: 10;
 }
-.hero-figure-box-01 {
-	left: 103.2%;
-	top: 41.9%;
-	width: 28.03%;
-	height: 37.37%;
-	background: linear-gradient(to left top, #00bffb, rgba(#00bffb, 0));
-	transform: rotateZ(45deg);
-
-	&::before {
-		background: linear-gradient(
-			to left,
-			color(bg, 1) 0%,
-			rgba(color(bg, 1), 0) 60%
-		);
-		transform: rotateZ(45deg) scale(1.5);
-	}
-}
 
 .hero-figure-box-02 {
 	left: 61.3%;
 	top: 64.1%;
 	width: 37.87%;
 	height: 50.5%;
-	background: linear-gradient(to left top, $secondary, $primary);
+	background: linear-gradient(to left top, $secondary, $secondary);
 	transform: rotateZ(-45deg);
 
 	&::before {
@@ -127,14 +110,9 @@
 	top: -56.8%;
 	width: 56.81%;
 	height: 75.75%;
-	background: linear-gradient(to left top, #f26f22, rgba(#00bffb, 0));
+	background: linear-gradient(to left top, $primary, $primary);
 
 	&::before {
-		background: linear-gradient(
-			to left,
-			color(bg, 1) 0%,
-			rgba(color(bg, 1), 0) 60%
-		);
 		transform: rotateZ(45deg) scale(1.5);
 	}
 }
