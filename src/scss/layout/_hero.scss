@@ -236,6 +236,9 @@
 	.hero-figure-box-09 {
 		display: none;
 	}
+	.hero-title {
+		color: #000 !important;
+	}
 }
 
 @include media(">medium") {
