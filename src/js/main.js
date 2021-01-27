@@ -97,3 +97,6 @@ function clickHandler(e) {
     behavior: "smooth",
   });
 }
+
+// Current year
+document.getElementById('year').innerText = new Date().getFullYear();
